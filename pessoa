@@ -1,0 +1,28 @@
+public class Pessoa implements Serializable {
+    private int id;
+    private String nome;
+    private double salario;
+     private String senha;
+
+public Pessoa(int id, String nome, double salario, String senha) {
+    this.setId(id);
+    this.setNome(nome);
+    this.setSalario(salario);
+    this.setSenha(senha);
+}     
+
+public int getId() {
+    return id;
+}
+
+public String getSenha() {
+    return id;
+}
+
+public void setSenha(String senha) {
+    this.senha = senha;
+}
+
+public double getSalario() {
+    return salario;
+}
